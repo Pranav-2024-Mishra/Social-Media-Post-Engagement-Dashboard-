@@ -5,9 +5,9 @@ To Create a dashboard to Analyze performance of posts on a social media account.
 This repository contains a Streamlit web application designed to analyze and visualize the performance of social media posts from a given CSV dataset. It provides quick insights into engagement metrics, post type distribution, and trends over time, helping users understand their social media content's effectiveness.
 
 **✨ Features**
-> Interactive Data Upload: Easily upload your social media post data via a CSV file.
+* Interactive Data Upload: Easily upload your social media post data via a CSV file.
 
-> Key Performance Indicators (KPIs):
+* Key Performance Indicators (KPIs):
 
 1. Total number of posts.
 
