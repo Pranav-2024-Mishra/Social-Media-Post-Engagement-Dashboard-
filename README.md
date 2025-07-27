@@ -10,11 +10,11 @@ This repository contains a Streamlit web application designed to analyze and vis
 
 * **Key Performance Indicators (KPIs):**
 
-    1. Total number of posts.
+    * Total number of posts.
 
-    2. Total Likes, Shares, and Comments across all posts.
+    * Total Likes, Shares, and Comments across all posts.
 
-    3. Average engagement per post.
+    * Average engagement per post.
 
 * **Top Performing Post:** Highlights the post with the highest total engagement, displaying its key metrics.
 
@@ -59,5 +59,5 @@ This repository contains a Streamlit web application designed to analyze and vis
 
 * requirements.txt: Lists all Python dependencies required to run the project.
 
-* social_media_data.csv: An optional sample CSV file for testing the dashboard.
+* Cleaned_Social_Media_Post_Engagement.csv: A CSV file for testing the dashboard.
 
