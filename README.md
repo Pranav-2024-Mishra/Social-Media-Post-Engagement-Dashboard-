@@ -61,3 +61,63 @@ This repository contains a Streamlit web application designed to analyze and vis
 
 * Cleaned_Social_Media_Post_Engagement.csv: A CSV file for testing the dashboard.
 
+# Installation
+
+Follow these steps to set up the project locally:
+
+* Clone the repository (or download the files):
+
+      git clone https://github.com/your-username/social_media_dashboard.git
+      cd social_media_dashboard
+
+(Replace your-username and social_media_dashboard with your actual GitHub details if you're pushing this to a new repo).
+
+* Create a Virtual Environment (Recommended):
+It's best practice to use a virtual environment to manage project dependencies.
+
+    * Windows (Command Prompt/PowerShell):
+
+           python -m venv .venv
+          .\.venv\Scripts\activate
+
+(If you encounter a script execution error on PowerShell, run PowerShell as Administrator and execute Set-ExecutionPolicy RemoteSigned -Scope CurrentUser, then try activating again in your regular terminal.)
+
+   *  macOS/Linux (Bash/Zsh):
+
+     python3 -m venv .venv
+     source ./.venv/bin/activate
+
+* Install Dependencies:
+With your virtual environment activated, install the required Python libraries:
+
+      pip install -r requirements.txt
+
+# How to run the project
+
+* Prepare your Data:
+Ensure your social media post data is in a CSV file with the following exact column headers (case-insensitive, but the script expects these standardized forms after processing):
+
+  * Post_ID (or Post ID)
+
+  * Post_Date (or Post Date)
+
+  * Likes
+
+  * Shares
+
+  * Comments
+
+  * Content_Type (or Content Type, Type)
+
+A sample social_media_data.csv is included for quick testing.
+
+* Run the Streamlit Application:
+From your project directory (with the virtual environment activated), execute:
+
+      streamlit run app.py
+
+* Access the Dashboard:
+Your web browser will automatically open a new tab displaying the dashboard (usually at http://localhost:8501).
+
+* Upload your CSV:
+Use the "Choose a CSV file" button in the sidebar to upload your social media data. The dashboard will then populate with your insights.
