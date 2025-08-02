@@ -84,8 +84,8 @@ It's best practice to use a virtual environment to manage project dependencies.
 
    * macOS/Linux (Bash/Zsh):
 
-          python3 -m venv .venv
-          source ./.venv/bin/activate
+            python3 -m venv .venv
+            source ./.venv/bin/activate
 
 * Install Dependencies:
 With your virtual environment activated, install the required Python libraries:
