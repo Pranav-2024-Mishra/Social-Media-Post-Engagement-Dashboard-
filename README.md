@@ -82,10 +82,10 @@ It's best practice to use a virtual environment to manage project dependencies.
 
 (If you encounter a script execution error on PowerShell, run PowerShell as Administrator and execute Set-ExecutionPolicy RemoteSigned -Scope CurrentUser, then try activating again in your regular terminal.)
 
-   *  macOS/Linux (Bash/Zsh):
+   * macOS/Linux (Bash/Zsh):
 
-     python3 -m venv .venv
-     source ./.venv/bin/activate
+          python3 -m venv .venv
+          source ./.venv/bin/activate
 
 * Install Dependencies:
 With your virtual environment activated, install the required Python libraries:
